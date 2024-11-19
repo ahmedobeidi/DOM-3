@@ -1,0 +1,26 @@
+body {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button {
+    text-decoration: none;
+    background-color: rgb(116, 41, 41);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+
+#box {
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: "white";
+    display: none;
+}
