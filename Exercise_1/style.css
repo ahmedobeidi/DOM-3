@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+div {
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
