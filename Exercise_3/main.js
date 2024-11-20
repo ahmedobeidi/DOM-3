@@ -7,6 +7,10 @@ function handleKeyborard(event) {
         resultPara.textContent = "True";
         resultPara.style.color = "green";
     }
+    else if (event.shiftKey && event.ctrlKey && event.key == "A") {
+        resultPara.textContent = "True";
+        resultPara.style.color = "brown";
+    }
     else {
         resultPara.textContent = "False";
         resultPara.style.color = "red";
